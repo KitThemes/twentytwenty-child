@@ -1,0 +1,87 @@
+/*
+ Theme Name: Twenty Twenty Child
+ Theme URI:	https://www.kitthemes.com/
+ Description: Twenty Twenty Child Theme
+ Author: KitThemes
+ Author URI: https://www.kitthemes.com/
+ Template: twentytwenty
+ Version: 1.0.0
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain: twentytwentychild
+*/
+
+body {
+    background-color:#fff;
+}
+
+#site-header {
+    border-bottom: 1px solid #d3d7e2;
+}
+
+.site-title {
+    color: #11dec2;
+}
+
+.site-description {
+    color: #a9b1c5;
+}
+
+body:not(.overlay-header) .primary-menu > li > a,
+body:not(.overlay-header) .primary-menu > li > .icon,
+.modal-menu a,
+.footer-menu a,
+.footer-widgets a,
+#site-footer .wp-block-button.is-style-outline,
+.wp-block-pullquote:before,
+.singular:not(.overlay-header) .entry-header a,
+.archive-header a,
+.header-footer-group .color-accent,
+.header-footer-group .color-accent-hover:hover{
+    color: #11dec2;
+}
+
+.color-accent,
+.color-accent-hover:hover,
+.color-accent-hover:focus,
+:root .has-accent-color,
+.has-drop-cap:not(:focus):first-letter,
+.wp-block-button.is-style-outline,
+a{
+    color: #11dec2 !important;
+}
+
+button:not(.toggle),
+.button,
+.faux-button,
+.wp-block-button__link,
+.wp-block-file .wp-block-file__button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.bg-accent,
+.bg-accent-hover:hover,
+.bg-accent-hover:focus,
+:root .has-accent-background-color,
+.comment-reply-link{
+    background-color:#11dec2 !important;
+}
+
+.footer-nav-widgets-wrapper {
+    border-top: 1px solid #d3d7e2;
+}
+
+.footer-widgets-outer-wrapper {
+    border-bottom: none;
+}
+
+#site-footer{
+    background-color: #11dec2;
+    color: #fff;
+}
+
+.powered-by-wordpress,
+.to-the-top {
+    color: #fff;
+}
